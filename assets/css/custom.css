@@ -1,0 +1,32 @@
+/* Custom CSS akan ditambahkan di sini */
+.custom-bg {
+    background-color: #f4f6f9;
+}
+
+/* Styling untuk logo */
+.brand-image {
+    width: 33px !important;
+    height: auto !important;
+    max-width: 100% !important;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+/* Styling untuk foto user */
+.user-panel .image img {
+    width: 35px !important;
+    height: 35px !important;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .brand-image {
+        width: 28px !important;
+    }
+    .user-panel .image img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+} 
